@@ -146,7 +146,7 @@ class FruitShop:
     def print_receipt(self, cart, budget):
         clear_console()
         if cart:
-            print("🧾 Your receipt:\n")
+            print(" Your receipt:\n")
             for item, quantity in cart.items():
                 print(f"{item}: x{quantity}")
             print(f"\nRemaining budget: £{budget}")
