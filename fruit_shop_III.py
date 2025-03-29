@@ -44,7 +44,7 @@ def purchaseItem(budget, itemPurchased, itemPrefixes, itemPrices, cart):
 
 def printReceipt(cart, itemPrefixes, itemPrices, remaining_budget):
     clear_console()
-    print("\n🧾 Receipt:")
+    print("\n Receipt:")
     if cart:
         for index in cart:
             quantity = cart[index]
@@ -118,5 +118,4 @@ def main():
 
     printReceipt(cart, itemPrefixes, itemPrices, budget)
 
-if __name__ == "__main__":
-    main()
+main()
